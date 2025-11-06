@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./asset/styles.css ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link rel="icon" href="./asset/favicon/littlerainbow.png">
+    <title>Little Rainbow</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-xl sticky-top">
+        <div class="container-fluid ">
+            <img class= "navbar-brand" src="./asset/favicon/littlerainbow.png" alt="little rainbow" 
+                width="100px" height="80px"> Little Rainbow Daycare & Nursery 
+            <div class="offcanvas offcanvas-end list-group-item" tabindex="-1" id="offcanvasNavbarLg" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Little Rainbow</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" id="offcanvas">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="./index.html" >Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="./about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="./room.html">Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="./programs.html">Programs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="./educators.html">Educators</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active mx-lg-2" href="./admissions.html">Admissions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLg" 
+                aria-controls="offcanvasNavbarLg">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>        
+    </nav>
+    <div class="container-fluid" id="about">
+        <h6>Admissions</h6>
+        <h3>Accepting Applications for Next Year</h3>
+        <hr class="container-fluid"> 
+    </div>                                 
+    <div class="container-fluid" id="enroll">
+        <div class="row">
+            <div class="col-lg-5 col-md-4 ps-xl-5">
+                <form>
+                    <br>
+                    <h4>Enrollment</h4><br>
+                    <input type="text" placeholder="Parent's Name"><br><br>
+                    <input type="number" placeholder="Phone Number"><br><br>
+                    <input type="email" placeholder="Email Id"><br><br>
+                    <label for="age" >Select Child's Age</label><br>
+                    <select  id="age">
+                        <option>0-11 months</option>
+                        <option>1 year</option>
+                        <option>2 years</option>
+                        <option>3 years</option>
+                        <option>4 years</option>
+                        <option>5 years</option>
+                        <option>6 years</option>
+                        <option>7 years</option>
+                    </select><br><br>
+                    <label for="program">Select Program interested in</label><br>
+                    <select id="program" name="program">
+                        <option>Infant</option>
+                        <option>Toddler</option>
+                        <option>Pre-School</option>
+                        <option>Pre-K</option>
+                    </select><br><br>
+                    <input type="submit" class="btn btn-success"><br><br>
+                    <p>For more information call 123-456-7890</p> 
+                </form>   
+            </div>
+            <div class="col-lg-7 col-md-8 pe-xl-5 ">
+                <img src="./asset/images/enroll.jpeg" width="100%" height="100%">
+            </div>
+        </div>
+        <hr class="container-fluid">
+    </div>
+    <footer class="container-fluid">
+        <p> &copy; 2025 by Little Rainbow. <br> Powered and secured by Gracel</p>
+    </footer>
+</body>
+</html>
