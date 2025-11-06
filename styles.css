@@ -1,0 +1,200 @@
+body{
+    background-color: lavenderblush !important;
+}
+nav{
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color:darkslateblue !important;
+    border: 1px solid darkslateblue;
+}
+
+.offcanvas{
+    background-color: bisque !important;
+    text-align: center !important;
+    width: 50%;
+}
+
+.offcanvas-header{
+    text-align: center !important;
+}
+
+.navbar>.container-fluid{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center !important;
+}
+
+.active{
+    text-decoration: underline !important;
+}
+
+.navbar-toggler{
+    border: none !important;
+    font-size: 1.25rem ;
+}
+
+.navbar-toggler:focus , .btn-close:focus{
+    box-shadow: none !important;
+    outline: none;
+}
+
+.navbar{
+    background-color: bisque !important;
+}
+
+#daycarehome { 
+    padding-top: 40px;
+}
+
+#daycarehome #text , #phil #text{
+    padding: 6%;
+    font-size: larger;
+    text-align: center !important;
+}
+
+#daycarehome #text p, #rooms h4, #approach h4, #test .card-title, #about h6, #phil h4, #pro h5, #contact h5{ 
+    color: chocolate !important;
+    text-align: center !important;
+    text-decoration: underline;
+}
+
+#daycarehome #text{
+    color: darkslateblue;
+}
+
+#rooms{
+    text-align: center;
+}
+
+#rooms h5{
+    color:darkblue;
+    text-decoration:underline; 
+}
+
+#rooms p{
+    text-align:center;
+}
+
+#rooms a , #approach #text a{
+    border:1px solid darkblue !important;
+    text-decoration: none;
+    color: darkblue;
+    padding: 7px;
+    text-align: center !important;
+}
+
+#rooms a:hover , #approach #text a:hover{
+    color: white;
+    background-color: darkblue;
+}
+
+#approach #text p {
+    padding: 5% 5% 0% 5% !important;
+    text-align: center !important;
+}
+
+#approach h4{
+    margin-top: 5%;
+}
+
+.card{
+    background-color:thistle !important;
+    color: black !important;
+   
+}
+
+.carousel-item{
+    text-decoration: none !important;
+}
+
+.card p{
+    padding:0px 30px;
+    font-family: Verdana, sans-serif;
+}
+
+.card-title{
+    font-family: Georgia, sans-serif;
+}
+
+footer{
+    background-color: darkslateblue;
+    max-height:500px ;
+    text-align: center;
+    color:aliceblue;
+    padding: 20px;
+    border-radius: 500px 500px 0px 0px;
+    border-block-style:solid  ;
+}
+
+#about{
+    text-align: center;
+}
+
+#about h6{
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+#about h3{
+    color: darkslateblue;
+}
+
+#pro{
+    padding: 15px 30px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#edu img{
+    border-radius: 50%; 
+      
+}
+
+#edu h4{
+    color: chocolate;
+}
+
+#edu h6{
+    color:darkslateblue;
+}
+
+#enroll{
+    background-color: thistle;
+    text-align: center !important;
+}
+
+#enroll img{
+    opacity: 0.3;
+}
+
+#enroll select{
+    width: 180px;
+}
+
+#contact form{
+    padding: 10px; 
+    margin:0px 10px;
+    width: 100%;
+}
+
+#contact{
+    text-align: center;
+}
+
+#right{
+    border-right: 2px solid darkslateblue;
+}
+
+#contact p{
+    border-bottom: 2px solid darkblue;
+    width: 250px !important;
+}
+
+#map{
+    text-align: center;
+    width: 100%;
+}
